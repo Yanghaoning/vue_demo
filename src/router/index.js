@@ -13,10 +13,17 @@ const routes = [
   {
     path: '/swiper',
     name: 'Swiper',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Swiper.vue')
+    component: () => import('../views/Swiper.vue')
+  },
+  {
+    path: '/timePicker',
+    name: 'timePicker',
+    component: () => import('../views/timePicker.vue')
+  },
+  {
+    path: '/weekTime',
+    name: 'weekTime',
+    component: () => import('../views/weekTime.vue')
   }
 ]
 

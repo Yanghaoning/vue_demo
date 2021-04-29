@@ -10,7 +10,8 @@ import VueCropper from 'vue-cropper'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
 Vue.use(VueAwesomeSwiper)
-
+import XEUtils from 'xe-utils'
+Vue.prototype.$utils = XEUtils
 
 
 Vue.config.productionTip = false
