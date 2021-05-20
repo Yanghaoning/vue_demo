@@ -9,9 +9,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "amap-js": "^2.2.0",
     "axios": "^0.21.1",
     "byte-weektime-picker": "^1.0.2",
     "core-js": "^3.6.5",
+    "echarts": "^5.1.1",
+    "echarts-amap": "^1.4.15-rc.1",
     "element-ui": "^2.15.0",
     "js-base64": "^3.6.0",
     "js-md5": "^0.7.3",

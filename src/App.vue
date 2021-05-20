@@ -5,6 +5,8 @@
       <router-link to="/swiper">About</router-link> |
       <router-link to="/timePicker">timePicker</router-link> |
       <router-link to="/weektime">weektime</router-link> |
+      <router-link to="/region">region</router-link>|
+      <router-link to="/map">map</router-link>
     </div>
     <router-view/>
   </div>

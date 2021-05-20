@@ -1,8 +1,3 @@
-module.exports = {
-    publicPath: "./",
-    lintOnSave: false, //关闭eslint
-    outputDir: process.env.outputDir,
-};
 const path = require('path')
 
 /* 根据指定目录名得到根目录的绝对路径 */
