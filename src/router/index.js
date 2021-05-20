@@ -24,6 +24,16 @@ const routes = [
     path: '/weekTime',
     name: 'weekTime',
     component: () => import('../views/weekTime.vue')
+  },
+  {
+    path: '/region',
+    name: 'region',
+    component: () => import('../views/region.vue')
+  },
+  {
+    path: '/map',
+    name: 'map',
+    component: () => import('../views/map.vue')
   }
 ]
 
