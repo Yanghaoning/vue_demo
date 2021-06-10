@@ -6,7 +6,8 @@
       <router-link to="/timePicker">timePicker</router-link> |
       <router-link to="/weektime">weektime</router-link> |
       <router-link to="/region">region</router-link>|
-      <router-link to="/map">map</router-link>
+      <router-link to="/map">map</router-link>|
+      <router-link to="/tagCanvas">tagCanvas</router-link>
     </div>
     <router-view/>
   </div>

@@ -34,6 +34,11 @@ const routes = [
     path: '/map',
     name: 'map',
     component: () => import('../views/map.vue')
+  },
+  {
+    path: '/tagCanvas',
+    name: 'tagCanvas',
+    component: () => import('../views/tagCanvas.vue')
   }
 ]
 
